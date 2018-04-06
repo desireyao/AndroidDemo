@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Title"
+            android:textColor="@color/white" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <!--<android.support.v7.widget.Toolbar-->
+    <!--android:id="@+id/toolbar"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@color/colorPrimary"-->
+    <!--app:popupTheme="@style/ThemeOverlay.AppCompat.Light"-->
+    <!--app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/toolbar_title"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:gravity="center"-->
+    <!--android:text="自定义控件"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:textSize="16sp" />-->
+
+    <!--</android.support.v7.widget.Toolbar>-->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_arc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="画半圆环" />
+
+            <Button
+                android:id="@+id/btn_sport_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="画运动详情" />
+
+            <Button
+                android:id="@+id/btn_sport_history"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="自定义view测试" />
+
+            <Button
+                android:id="@+id/btn_heart_rate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="画心率" />
+
+            <Button
+                android:id="@+id/btn_current_sleep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="画睡眠" />
+
+
+            <Button
+                android:id="@+id/btn_xfermode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="xfermode" />
+
+            <Button
+                android:id="@+id/btn_attained"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="连续达标" />
+
+            <Button
+                android:id="@+id/btn_recyclerview_pull_refresh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="recyclerview_pull_refresh" />
+
+            <Button
+                android:id="@+id/btn_mvp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MVP 设计模式DEMO" />
+
+            <Button
+                android:id="@+id/btn_zip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="压缩文件" />
+
+            <Button
+                android:id="@+id/btn_radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RadioGroup" />
+
+            <Button
+                android:id="@+id/btn_TEST"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HandlerTEST" />
+
+            <Button
+                android:id="@+id/btn_service_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SERVICETEST" />
+
+            <Button
+                android:id="@+id/btn_bluetooth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BLUETOOTH" />
+
+            <Button
+                android:id="@+id/btn_bluetooth2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AUTOPAIRBLUETOOTH" />
+
+            <Button
+                android:id="@+id/btn_listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LISTVIEW" />
+
+            <Button
+                android:id="@+id/btn_scrolling"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SCROLLING" />
+
+            <Button
+                android:id="@+id/btn_Coording"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Coording" />
+
+
+            <Button
+                android:id="@+id/btn_scroll2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SCROLL2" />
+
+
+            <Button
+                android:id="@+id/btn_num_anim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SCROLL2" />
+
+            <Button
+                android:id="@+id/btn_scrollview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SCROLLVIEW" />
+
+            <Button
+                android:id="@+id/btn_jobservice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="jobService" />
+
+            <Button
+                android:id="@+id/btn_permisson"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="权限申请" />
+
+            <Button
+                android:id="@+id/btn_taskmanager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="task_manager" />
+
+            <Button
+                android:id="@+id/btn_bitmap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="bitmap test" />
+
+            <Button
+                android:id="@+id/btn_xrecyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="xrecyclerview" />
+
+            <Button
+                android:id="@+id/btn_waveviewactivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="waveview_activity" />
+
+            <Button
+                android:id="@+id/btn_seekbaractivity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="seek_activity" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

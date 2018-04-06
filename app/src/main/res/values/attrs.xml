@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RunningSpeedChart">
+        <attr name="XaxleTextSizePX" format="integer" />
+        <attr name="YaxleTextSizePX" format="integer" />
+        <attr name="XMaxPart" format="integer" />
+        <attr name="YMaxPart" format="integer" />
+        <attr name="XMaxNode" format="integer" />
+        <attr name="colorAxles" format="reference|color" />
+        <attr name="colorTextX" format="reference|color" />
+        <attr name="colorTextY" format="reference|color" />
+        <attr name="colorChart" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="RunningSpeedProgress">
+        <attr name="ProgressColor" format="reference|color" />
+        <attr name="ProgressBackgroundColor" format="reference|color" />
+        <attr name="ProgressTextSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="IndicatorView">
+        <attr name="indicator_icon" format="reference" />
+        <attr name="indicator_margin" format="reference|dimension" />
+        <attr name="indicator_smooth" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SportProgressView">
+        <attr name="startColor" format="reference|color" />
+        <attr name="endColor" format="reference|color" />
+        <attr name="emptyColor" format="reference|color" />
+        <attr name="stepTextSize" format="reference|dimension" />
+        <attr name="progressWidth" format="reference|dimension" />
+    </declare-styleable>
+
+    <attr name="deepSleepColor" format="reference|color"></attr>
+    <attr name="lightSleepColor" format="reference|color"></attr>
+    <attr name="wakeUpSleepColor" format="reference|color"></attr>
+    <declare-styleable name="SleepCurrentView">
+        <attr name="deepSleepColor" />
+        <attr name="lightSleepColor" />
+        <attr name="wakeUpSleepColor" />
+        <attr name="sleepColorHeight" format="reference|dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="SleepTodayView">
+        <attr name="deepSleepColor" />
+        <attr name="lightSleepColor" />
+        <attr name="wakeUpSleepColor" />
+    </declare-styleable>
+
+    <declare-styleable name="SportDetailView">
+        <attr name="mainBackgroundColor" format="reference|color" />
+        <attr name="selectItemColor" format="reference|color" />
+        <attr name="normalItemColor" format="reference|color" />
+        <attr name="itemWidth" format="reference|dimension" />
+
+    </declare-styleable>
+
+    <attr name="borderRadius" format="dimension" />
+    <attr name="type">
+        <enum name="circle" value="0" />
+        <enum name="round" value="1" />
+    </attr>
+
+    <attr name="src" format="reference"></attr>
+    <declare-styleable name="CustomImageView">
+        <attr name="borderRadius" />
+        <attr name="type" />
+        <attr name="src" />
+    </declare-styleable>
+
+    <declare-styleable name="AttainedView">
+        <attr name="attainItemStartColor" format="reference|color" />
+        <attr name="attainItemEndColor" format="reference|color" />
+        <attr name="attainItemWidth" format="reference|dimension" />
+    </declare-styleable>
+
+
+    <attr name="peakValue" format="dimension" />
+    <attr name="waveColor" format="color" />
+    <attr name="speedOne" format="integer" />
+    <attr name="speedTwo" format="integer" />
+    <attr name="speedThr" format="integer" />
+    <attr name="waveHeight" format="dimension" />
+    <declare-styleable name="DoubleWaveView">
+        <attr name="peakValue" />
+        <attr name="waveColor" />
+        <attr name="speedOne" />
+        <attr name="speedTwo" />
+        <attr name="speedThr" />
+        <attr name="waveHeight" />
+    </declare-styleable>
+
+    <declare-styleable name="MSSearchDeviceLoadingView">
+        <attr name="itemRadius" format="dimension" />
+        <attr name="itemHeight" format="dimension" />
+        <attr name="itemCount" format="integer" />
+        <attr name="itemPadding" format="dimension" />
+
+        <attr name="speed" format="enum">
+            <enum name="fast" value="1" />
+            <enum name="normal" value="2" />
+            <enum name="slow" value="3" />
+        </attr>
+    </declare-styleable>
+
+</resources>

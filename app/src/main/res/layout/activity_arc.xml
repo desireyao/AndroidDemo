@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <com.demo.view.arc_demo.SportProgressView
+        android:id="@+id/sportview"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        app:emptyColor="#eaeaea"
+        app:endColor="#FF6666"
+        app:progressWidth="12dp"
+        app:startColor="@color/colorPrimary"
+        app:stepTextSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_set_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设置进度" />
+
+</LinearLayout>
