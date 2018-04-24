@@ -18,7 +18,6 @@ import com.demo.coord_demo.custom2.CustomCoord2Activity;
 import com.demo.coord_demo.custom4.Scroll2Activity;
 import com.demo.dm.view.TestMVPActivity;
 import com.demo.mlistview.ListViewActivity;
-import com.demo.other.task.MyTaskActivity;
 import com.demo.permission.PermissonActivity;
 import com.demo.radiobutton.RadioButtonActivity;
 import com.demo.handler.HandlerActivity;
@@ -35,7 +34,6 @@ import com.demo.view.sleep.SleepViewActivity;
 import com.demo.view.sport_detail.SportDetailViewActivity;
 import com.demo.view.msloadingview.TestViewActivity;
 import com.demo.view.xfermode.XferModeActivity;
-import com.demo.waveview2.WaveView2Activity;
 import com.demo.xrecyclerview.XRecyclerViewActivity;
 import com.demo.zip.ZipDemoActivity;
 
@@ -53,6 +51,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button btn_attained;
     private Button btn_recyclerview_pull_refresh;
     private Button btn_mvp;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -223,11 +222,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @OnClick(R.id.btn_permisson)
     void startToPermissonActivity() {
         startActivity(new Intent(this, PermissonActivity.class));
-    }
-
-    @OnClick(R.id.btn_taskmanager)
-    void startToTaskManagerActivity() {
-        startActivity(new Intent(this, MyTaskActivity.class));
     }
 
     @OnClick(R.id.btn_bitmap)

@@ -97,6 +97,7 @@ public class JobMainActivity extends AppCompatActivity implements View.OnClickLi
         builder.setRequiresCharging(false);    // 设置是否充电
         builder.setRequiresDeviceIdle(false);  // 设置手机是否空闲
         JobInfo jobInfo = builder.build();
+
         mJobScheduler.schedule(jobInfo);
     }
 

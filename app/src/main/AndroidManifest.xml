@@ -91,7 +91,8 @@
         <activity android:name=".waveview.WaveViewActivity" />
         <activity android:name=".view.seekbar.SeekBarActivity" />
         <activity android:name=".waveview2.WaveView2Activity" />
-        <activity android:name=".view.msloadingview.TestViewActivity"></activity>
+        <activity android:name=".view.msloadingview.TestViewActivity" />
+        <activity android:name=".java8.TestJava8Activity"></activity>
     </application>
 
 </manifest>
