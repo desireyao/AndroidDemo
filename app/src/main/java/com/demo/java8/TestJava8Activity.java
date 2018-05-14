@@ -19,7 +19,7 @@ public class TestJava8Activity extends AppCompatActivity {
         setContentView(R.layout.activity_test_java8);
 
         mHandler.post(() -> {
-            Log.e(TAG, "lambda--->test JAVA8");
+            Log.e(TAG, "lambda--->test");
         });
     }
 
