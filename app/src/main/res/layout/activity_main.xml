@@ -220,6 +220,12 @@
                 android:layout_height="wrap_content"
                 android:text="seek_activity" />
 
+            <Button
+                android:id="@+id/btn_aidl_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="aidl 测试" />
+
 
         </LinearLayout>
 

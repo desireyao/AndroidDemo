@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.demo.aidl.AIDL1Activity;
 import com.demo.bitmap.BitmapActivity;
 import com.demo.bluetooth.autopair.AutoPairActivity;
 import com.demo.bluetooth.normal.BluetoothActivity;
@@ -230,18 +231,25 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     @OnClick(R.id.btn_xrecyclerview)
-    void startToXRecyclerviewActivity(){
+    void startToXRecyclerviewActivity() {
         startActivity(new Intent(this, XRecyclerViewActivity.class));
     }
+
     @OnClick(R.id.btn_waveviewactivity)
-    void startToWaveViewActivity(){
+    void startToWaveViewActivity() {
 //        startActivity(new Intent(this, WaveView2Activity.class));
     }
 
     @OnClick(R.id.btn_seekbaractivity)
-    void startToSeekbarActivity(){
+    void startToSeekbarActivity() {
         startActivity(new Intent(this, SeekBarActivity.class));
     }
+
+    @OnClick(R.id.btn_aidl_activity)
+    void startToAidlActivity() {
+        startActivity(new Intent(this, AIDL1Activity.class));
+    }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

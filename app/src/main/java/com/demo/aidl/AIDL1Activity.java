@@ -1,25 +1,29 @@
-package com.demo.service.normal;
+package com.demo.aidl;
 
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.os.IBinder;
+import android.os.RemoteException;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
 import com.demo.R;
+import com.demo.service.normal.MyService;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class ServiceTestActivity extends AppCompatActivity {
+public class AIDL1Activity extends AppCompatActivity {
 
     private static final String TAG = "ServiceTestActivity";
 
     private boolean mIsBound;
     private MyService mBoundService;
+
+    private Print mPrint;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,9 +50,11 @@ public class ServiceTestActivity extends AppCompatActivity {
 
         public void onServiceConnected(ComponentName className, IBinder service) {
             Log.e(TAG, "mConnection--->service = " + service);
-            MyService.MyBinder binder = (MyService.MyBinder) service;
-            mBoundService = binder.getService();
 
+//            MyService.MyBinder binder = (MyService.MyBinder) service;
+//            mBoundService = binder.getService();
+
+            mPrint = Print.Stub.asInterface(service);
             Log.e(TAG, "onServiceConnected--->");
         }
 
@@ -84,6 +90,10 @@ public class ServiceTestActivity extends AppCompatActivity {
     @OnClick(R.id.btn_test)
     public void test() {
 //        mBoundService.printText("threadName = " + Thread.currentThread().getName());
+        try {
+            mPrint.print("threadName = " + Thread.currentThread().getName());
+        } catch (RemoteException e) {
+            e.printStackTrace();
+        }
     }
-
 }

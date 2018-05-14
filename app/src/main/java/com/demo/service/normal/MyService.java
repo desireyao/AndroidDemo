@@ -4,7 +4,10 @@ import android.app.Service;
 import android.content.Intent;
 import android.os.Binder;
 import android.os.IBinder;
+import android.os.RemoteException;
 import android.util.Log;
+
+import com.demo.aidl.Print;
 
 public class MyService extends Service {
     private static final String TAG = "MyService";
@@ -16,15 +19,26 @@ public class MyService extends Service {
     public IBinder onBind(Intent intent) {
         // TODO: Return the communication channel to the service.
         Log.e(TAG, "onBind--->");
-        return new MyBinder();
+//        return new MyBinder();
+
+        return printBinder;
     }
 
 
     class MyBinder extends Binder {
+
         MyService getService() {
             return MyService.this;
         }
     }
+
+    IBinder printBinder = new Print.Stub() {
+
+        @Override
+        public void print(String text) throws RemoteException {
+            Log.e(TAG, "printText---> text = " + text);
+        }
+    };
 
     @Override
     public void onCreate() {
@@ -52,4 +66,8 @@ public class MyService extends Service {
         Log.e(TAG, "onUnbind--->");
         return super.onUnbind(intent);
     }
+
+//    public void printText(String text) {
+//        Log.e(TAG, "printText---> text = " + text);
+//    }
 }
