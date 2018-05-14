@@ -61,7 +61,7 @@
         <!-- </intent-filter> -->
         <!-- </receiver> -->
 
-        <activity android:name=".mlistview.ListViewActivity" />
+        <activity android:name=".listview.ListViewActivity" />
 
         <service
             android:name=".bluetooth.normal.MyService"

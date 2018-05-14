@@ -1,4 +1,4 @@
-package com.demo.mlistview;
+package com.demo.listview;
 
 import android.os.Handler;
 import android.os.Message;

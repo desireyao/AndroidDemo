@@ -17,7 +17,7 @@ import com.demo.coord_demo.ScrollingActivity;
 import com.demo.coord_demo.custom2.CustomCoord2Activity;
 import com.demo.coord_demo.custom4.Scroll2Activity;
 import com.demo.dm.view.TestMVPActivity;
-import com.demo.mlistview.ListViewActivity;
+import com.demo.listview.ListViewActivity;
 import com.demo.permission.PermissonActivity;
 import com.demo.radiobutton.RadioButtonActivity;
 import com.demo.handler.HandlerActivity;
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         getSupportActionBar().setDisplayShowTitleEnabled(false);
 
         TextView tv = (TextView) findViewById(R.id.toolbar_title);
-        tv.setText("自定义控件");
+        tv.setText("android 自用 demo");
 
 //        toolbar.inflateMenu(R.menu.base_toolbar_menu);  //设置右上角的填充菜单
         toolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
@@ -235,7 +235,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
     @OnClick(R.id.btn_waveviewactivity)
     void startToWaveViewActivity(){
-        startActivity(new Intent(this, WaveView2Activity.class));
+//        startActivity(new Intent(this, WaveView2Activity.class));
     }
 
     @OnClick(R.id.btn_seekbaractivity)
