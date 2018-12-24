@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.demo.mymapview.MainMyMapViewActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:padding="16dp"
+        >
+
+        <com.mapview.MapView
+            android:id="@+id/myMapView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
+        <ImageView
+            android:id="@+id/img_flag_center"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/icon_loc_star_2" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加中心点" />
+
+    <Button
+        android:id="@+id/btn_test1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加测试点" />
+
+</LinearLayout>

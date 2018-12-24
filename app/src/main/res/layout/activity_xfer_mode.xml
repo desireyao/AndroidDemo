@@ -10,7 +10,27 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:background="@color/gray"
+        app:borderRadius="5dp"
         app:src="@drawable/icon"
-        app:type="circle" />
+        app:type="round" />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_bg_curtain" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/img_curtain" />
+
+    </RelativeLayout>
 
 </LinearLayout>

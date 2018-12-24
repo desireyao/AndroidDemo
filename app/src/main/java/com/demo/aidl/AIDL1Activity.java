@@ -90,10 +90,14 @@ public class AIDL1Activity extends AppCompatActivity {
     @OnClick(R.id.btn_test)
     public void test() {
 //        mBoundService.printText("threadName = " + Thread.currentThread().getName());
-        try {
-            mPrint.print("threadName = " + Thread.currentThread().getName());
-        } catch (RemoteException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            mPrint.print("threadName = " + Thread.currentThread().getName());
+//        } catch (RemoteException e) {
+//            e.printStackTrace();
+//        }
+
+        // 测试打开其它应用的 activity
+//        Intent intent = new Intent("android.intent.action.marstools");
+//        startActivity(intent);
     }
 }

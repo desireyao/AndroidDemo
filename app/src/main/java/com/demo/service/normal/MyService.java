@@ -19,21 +19,18 @@ public class MyService extends Service {
     public IBinder onBind(Intent intent) {
         // TODO: Return the communication channel to the service.
         Log.e(TAG, "onBind--->");
-//        return new MyBinder();
+        return new MyBinder();
 
-        return printBinder;
+//        return printBinder;
     }
 
-
     class MyBinder extends Binder {
-
         MyService getService() {
             return MyService.this;
         }
     }
 
     IBinder printBinder = new Print.Stub() {
-
         @Override
         public void print(String text) throws RemoteException {
             Log.e(TAG, "printText---> text = " + text);

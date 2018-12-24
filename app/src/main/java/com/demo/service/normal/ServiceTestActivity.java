@@ -86,4 +86,11 @@ public class ServiceTestActivity extends AppCompatActivity {
 //        mBoundService.printText("threadName = " + Thread.currentThread().getName());
     }
 
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        unbindService(mConnection);
+        mIsBound = false;
+    }
 }

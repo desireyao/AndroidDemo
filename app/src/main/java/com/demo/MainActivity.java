@@ -10,15 +10,19 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.demo.RxJava.RxJavaActivity;
 import com.demo.aidl.AIDL1Activity;
+import com.demo.beacon.BeaconTestActivity;
 import com.demo.bitmap.BitmapActivity;
 import com.demo.bluetooth.autopair.AutoPairActivity;
 import com.demo.bluetooth.normal.BluetoothActivity;
 import com.demo.coord_demo.ScrollingActivity;
 import com.demo.coord_demo.custom2.CustomCoord2Activity;
 import com.demo.coord_demo.custom4.Scroll2Activity;
+import com.demo.display.DisplayDemoActivity;
 import com.demo.dm.view.TestMVPActivity;
 import com.demo.listview.ListViewActivity;
+import com.demo.mymapview.MainMyMapViewActivity;
 import com.demo.permission.PermissonActivity;
 import com.demo.radiobutton.RadioButtonActivity;
 import com.demo.handler.HandlerActivity;
@@ -27,6 +31,7 @@ import com.demo.service.job.JobMainActivity;
 import com.demo.view.arc_demo.ArcActivity;
 import com.demo.view.attained.ContinueAttainedActivity;
 import com.demo.view.heart_rate.HeartRateActivity;
+import com.demo.view.myview.MyViewActivity;
 import com.demo.view.number_anim.NumberAnimatorActivity;
 import com.demo.view.recy.RecyPullRefreshActivity;
 import com.demo.view.scrlloview.ScrollViewActivity;
@@ -52,7 +57,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button btn_attained;
     private Button btn_recyclerview_pull_refresh;
     private Button btn_mvp;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -248,6 +252,31 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @OnClick(R.id.btn_aidl_activity)
     void startToAidlActivity() {
         startActivity(new Intent(this, AIDL1Activity.class));
+    }
+
+    @OnClick(R.id.btn_bean_activity)
+    void startToBeaconActivity() {
+        startActivity(new Intent(this, BeaconTestActivity.class));
+    }
+
+    @OnClick(R.id.btn_beacool_map_activity)
+    void startToBeaconMapActivity() {
+        startActivity(new Intent(this, MainMyMapViewActivity.class));
+    }
+
+    @OnClick(R.id.btn_view_handler)
+    void startToMyViewActivity() {
+        startActivity(new Intent(this, MyViewActivity.class));
+    }
+
+    @OnClick(R.id.btn_rxjava)
+    void startToRxJavaActivity() {
+        startActivity(new Intent(this, RxJavaActivity.class));
+    }
+
+    @OnClick(R.id.btn_display_demo)
+    void startToDisplayActivity() {
+        startActivity(new Intent(this, DisplayDemoActivity.class));
     }
 
 

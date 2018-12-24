@@ -49,9 +49,7 @@
         <service
             android:name=".service.normal.MyService"
             android:enabled="true"
-            android:exported="true"
-            android:process=":remote"
-            />
+            android:exported="true" />
 
         <activity android:name=".bluetooth.normal.BluetoothActivity" />
         <activity android:name=".bluetooth.autopair.AutoPairActivity" />
@@ -68,14 +66,12 @@
         <service
             android:name=".bluetooth.normal.MyService"
             android:enabled="true"
-            android:exported="true"
-           />
+            android:exported="true" />
 
         <activity
             android:name=".coord_demo.ScrollingActivity"
             android:label="@string/title_activity_scrolling"
             android:theme="@style/AppTheme" />
-
         <activity android:name=".coord_demo.custom.CustomCoordActivity" />
         <activity android:name=".coord_demo.custom2.CustomCoord2Activity" />
         <activity android:name=".coord_demo.custom3.Custom3Activity" />
@@ -89,22 +85,18 @@
             android:permission="android.permission.BIND_JOB_SERVICE" />
 
         <activity android:name=".permission.PermissonActivity" />
-
         <activity android:name=".bitmap.BitmapActivity" />
-
         <activity android:name=".xrecyclerview.XRecyclerViewActivity" />
-
         <activity android:name=".view.seekbar.SeekBarActivity" />
-
         <activity android:name=".view.msloadingview.TestViewActivity" />
-
         <activity android:name=".java8.TestJava8Activity" />
-
         <activity android:name=".aidl.AIDL1Activity" />
-
         <activity android:name=".aidl.AIDL2Activity" />
-
-
+        <activity android:name=".beacon.BeaconTestActivity" />
+        <activity android:name=".mymapview.MainMyMapViewActivity" />
+        <activity android:name=".view.myview.MyViewActivity" />
+        <activity android:name=".RxJava.RxJavaActivity" />
+        <activity android:name=".display.DisplayDemoActivity"></activity>
     </application>
 
 </manifest>

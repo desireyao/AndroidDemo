@@ -222,10 +222,12 @@ public class CustomImageView extends View {
         final Paint paint = new Paint();
         paint.setAntiAlias(true);
         Bitmap target = Bitmap.createBitmap(mWidth, mHeight, Config.ARGB_8888);
+
         Canvas canvas = new Canvas(target);
         RectF rect = new RectF(0, 0, source.getWidth(), source.getHeight());
         canvas.drawRoundRect(rect, mRadius, mRadius, paint);
         paint.setXfermode(new PorterDuffXfermode(PorterDuff.Mode.SRC_IN));
+
         canvas.drawBitmap(source, 0, 0, paint);
         return target;
     }

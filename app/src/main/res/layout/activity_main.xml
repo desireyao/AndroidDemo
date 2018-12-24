@@ -226,6 +226,36 @@
                 android:layout_height="wrap_content"
                 android:text="aidl 测试" />
 
+            <Button
+                android:id="@+id/btn_bean_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="beacon 测试" />
+
+            <Button
+                android:id="@+id/btn_beacool_map_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="自定义地图控件测试" />
+
+            <Button
+                android:id="@+id/btn_view_handler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="view事件分发" />
+
+            <Button
+                android:id="@+id/btn_rxjava"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="rxjava" />
+
+            <Button
+                android:id="@+id/btn_display_demo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="display_demo" />
+
 
         </LinearLayout>
 
