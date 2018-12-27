@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.demo.zip.ZipDemoActivity">
+    tools:context="com.yaoh.AndroidDemo.zip.ZipDemoActivity">
 
     <Button
         android:id="@+id/btn_startZip"

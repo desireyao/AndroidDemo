@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.demo.view.msloadingview.TestViewActivity">
+    tools:context="com.yaoh.AndroidDemo.view.msloadingview.TestViewActivity">
 
-    <com.demo.view.msloadingview.MSSearchDeviceLoadingView
+    <com.yaoh.AndroidDemo.view.msloadingview.MSSearchDeviceLoadingView
         android:id="@+id/laodingView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

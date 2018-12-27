@@ -4,6 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.demo.view.sport_history.SportHistoryActivity">
+    tools:context="com.yaoh.AndroidDemo.view.sport_history.SportHistoryActivity">
 
 </LinearLayout>

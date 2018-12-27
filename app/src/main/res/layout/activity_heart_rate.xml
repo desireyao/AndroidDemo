@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.demo.view.heart_rate.HeartRateActivity">
+    tools:context="com.yaoh.AndroidDemo.view.heart_rate.HeartRateActivity">
 
-    <com.demo.view.heart_rate.HeartRateView
+    <com.yaoh.AndroidDemo.view.heart_rate.HeartRateView
         android:layout_width="match_parent"
         android:layout_height="250dp" />
 

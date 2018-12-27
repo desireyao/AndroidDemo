@@ -4,35 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    tools:context="com.demo.waveview.WaveViewActivity">
+    android:background="@color/white">
 
     <View
         android:layout_width="match_parent"
         android:layout_height="250dp"
         android:background="@drawable/shape_bg_blue_gradient" />
 
-    <com.demo.waveview.DoubleWaveView
+    <com.yaoh.AndroidDemo.waveview.DoubleWaveView
         android:id="@+id/waveView"
         android:layout_width="match_parent"
         android:layout_height="250dp"
         app:peakValue="8dp"
         app:speedOne="3"
-        app:speedTwo="2"
         app:speedThr="1"
+        app:speedTwo="2"
         app:waveColor="@color/white"
         app:waveHeight="16dp" />
 
-    <!--<com.demo.waveview.WaveView-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="200dp"-->
-        <!--android:layout_marginBottom="36dp" />-->
+    <!--<com.yaoh.demodemo.waveview.WaveView&ndash;&gt;-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="200dp"-->
+    <!--android:layout_marginBottom="36dp" />-->
 
-    <!--<com.demo.waveview.MyWaveView-->
-        <!--android:id="@+id/myWaveView"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="200dp"-->
-        <!--/>-->
+    <!--<com.yaoh.demodemo.waveview.MyWaveView&ndash;&gt;-->
+    <!--android:id="@+id/myWaveView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="200dp"-->
+    <!--/>-->
 
 
     <!--<Button-->

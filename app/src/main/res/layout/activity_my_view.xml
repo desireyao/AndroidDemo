@@ -4,18 +4,18 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.demo.view.myview.MyRelativelayout
+    <com.yaoh.AndroidDemo.view.myview.MyRelativelayout
         android:id="@+id/view1"
         android:layout_width="match_parent"
         android:layout_height="400dp"
         android:background="@color/gray">
 
-        <com.demo.view.myview.MyView
+        <com.yaoh.AndroidDemo.view.myview.MyView
             android:id="@+id/view2"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:background="@color/colorGreen" />
 
-    </com.demo.view.myview.MyRelativelayout>
+    </com.yaoh.AndroidDemo.view.myview.MyRelativelayout>
 
 </LinearLayout>

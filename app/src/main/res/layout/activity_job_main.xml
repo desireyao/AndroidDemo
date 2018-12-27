@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.demo.service.job.JobMainActivity">
+    tools:context="com.yaoh.AndroidDemo.service.job.JobMainActivity">
 
     <Button
         android:id="@+id/btn_startService1"

@@ -1,1 +1,1 @@
-include ':app', ':xrefreshlib', ':mapview', ':TestJava'
+include ':app', ':xrefreshlib', ':mapview', ':JavaDemo'

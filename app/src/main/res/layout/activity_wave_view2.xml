@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context="com.demo.waveview2.WaveView2Activity">
+    tools:context="com.yaoh.AndroidDemo.waveview2.WaveView2Activity">
 
-    <com.demo.waveview2.WaveView
+    <com.yaoh.AndroidDemo.waveview2.WaveView
         android:id="@+id/waveView"
         android:layout_width="match_parent"
         android:layout_height="300dp" />

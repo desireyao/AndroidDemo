@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.demo.view.attained.ContinueAttainedActivity">
+    tools:context="com.yaoh.AndroidDemo.view.attained.ContinueAttainedActivity">
 
-    <com.demo.view.attained.AttainedView
+    <com.yaoh.AndroidDemo.view.attained.AttainedView
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_marginTop="16dp"

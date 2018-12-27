@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.demo">
+    package="com.yaoh.AndroidDemo">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
@@ -19,7 +19,7 @@
     <uses-permission android:name="android.permission.READ_CALENDAR" />
 
     <application
-        android:name=".view.arc_demo.App"
+        android:name="com.yaoh.AndroidDemo.view.arc_demo.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -33,70 +33,70 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.arc_demo.ArcActivity" />
-        <activity android:name=".view.sport_detail.SportDetailViewActivity" />
-        <activity android:name=".view.heart_rate.HeartRateActivity" />
-        <activity android:name=".view.sleep.SleepViewActivity" />
-        <activity android:name=".view.xfermode.XferModeActivity" />
-        <activity android:name=".view.attained.ContinueAttainedActivity" />
-        <activity android:name=".view.recy.RecyPullRefreshActivity" />
-        <activity android:name=".dm.view.TestMVPActivity" />
-        <activity android:name=".zip.ZipDemoActivity" />
-        <activity android:name=".radiobutton.RadioButtonActivity" />
-        <activity android:name=".handler.HandlerActivity" />
-        <activity android:name=".service.normal.ServiceTestActivity" />
+        <activity android:name="com.yaoh.AndroidDemo.view.arc_demo.ArcActivity" />
+        <activity android:name="com.yaoh.AndroidDemo.view.sport_detail.SportDetailViewActivity" />
+        <activity android:name="com.yaoh.AndroidDemo.view.heart_rate.HeartRateActivity" />
+        <activity android:name="com.yaoh.AndroidDemo.view.sleep.SleepViewActivity" />
+        <activity android:name="com.yaoh.AndroidDemo.view.xfermode.XferModeActivity" />
+        <activity android:name="com.yaoh.AndroidDemo.view.attained.ContinueAttainedActivity" />
+        <activity android:name="com.yaoh.AndroidDemo.view.recy.RecyPullRefreshActivity" />
+        <activity android:name="com.yaoh.AndroidDemo.dm.view.TestMVPActivity" />
+        <activity android:name="com.yaoh.AndroidDemo.zip.ZipDemoActivity" />
+        <activity android:name="com.yaoh.AndroidDemo.radiobutton.RadioButtonActivity" />
+        <activity android:name="com.yaoh.AndroidDemo.handler.HandlerActivity" />
+        <activity android:name="com.yaoh.AndroidDemo.service.normal.ServiceTestActivity" />
 
         <service
-            android:name=".service.normal.MyService"
+            android:name="com.yaoh.AndroidDemo.service.normal.MyService"
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name=".bluetooth.normal.BluetoothActivity" />
-        <activity android:name=".bluetooth.autopair.AutoPairActivity" />
+        <activity android:name="com.yaoh.AndroidDemo.bluetooth.normal.BluetoothActivity" />
+        <activity android:name="com.yaoh.AndroidDemo.bluetooth.autopair.AutoPairActivity" />
 
-        <!-- <receiver android:name="com.demo.bluetooth.autopair.BluetoothReceiver" > -->
+        <!-- <receiver android:nacom.yaoh.demodemo.bluetooth.autopair.BluetoothReceiver" > -->
         <!-- <intent-filter android:priority="1000"> -->
         <!-- <action android:name="android.bluetooth.device.action.PAIRING_REQUEST"/> -->
         <!-- <action android:name="android.bluetooth.device.action.FOUND" /> -->
         <!-- </intent-filter> -->
         <!-- </receiver> -->
 
-        <activity android:name=".listview.ListViewActivity" />
+        <activity android:name="com.yaoh.AndroidDemo.listview.ListViewActivity" />
 
         <service
-            android:name=".bluetooth.normal.MyService"
+            android:name="com.yaoh.AndroidDemo.bluetooth.normal.MyService"
             android:enabled="true"
             android:exported="true" />
 
         <activity
-            android:name=".coord_demo.ScrollingActivity"
+            android:name="com.yaoh.AndroidDemo.coord_demo.ScrollingActivity"
             android:label="@string/title_activity_scrolling"
             android:theme="@style/AppTheme" />
-        <activity android:name=".coord_demo.custom.CustomCoordActivity" />
-        <activity android:name=".coord_demo.custom2.CustomCoord2Activity" />
-        <activity android:name=".coord_demo.custom3.Custom3Activity" />
-        <activity android:name=".coord_demo.custom4.Scroll2Activity" />
-        <activity android:name=".view.number_anim.NumberAnimatorActivity" />
-        <activity android:name=".view.scrlloview.ScrollViewActivity" />
-        <activity android:name=".service.job.JobMainActivity" />
+        <activity android:name="com.yaoh.AndroidDemo.coord_demo.custom.CustomCoordActivity" />
+        <activity android:name="com.yaoh.AndroidDemo.coord_demo.custom2.CustomCoord2Activity" />
+        <activity android:name="com.yaoh.AndroidDemo.coord_demo.custom3.Custom3Activity" />
+        <activity android:name="com.yaoh.AndroidDemo.coord_demo.custom4.Scroll2Activity" />
+        <activity android:name="com.yaoh.AndroidDemo.view.number_anim.NumberAnimatorActivity" />
+        <activity android:name="com.yaoh.AndroidDemo.view.scrlloview.ScrollViewActivity" />
+        <activity android:name="com.yaoh.AndroidDemo.service.job.JobMainActivity" />
 
         <service
-            android:name=".service.job.MyJobService"
+            android:name="com.yaoh.AndroidDemo.service.job.MyJobService"
             android:permission="android.permission.BIND_JOB_SERVICE" />
 
-        <activity android:name=".permission.PermissonActivity" />
-        <activity android:name=".bitmap.BitmapActivity" />
-        <activity android:name=".xrecyclerview.XRecyclerViewActivity" />
-        <activity android:name=".view.seekbar.SeekBarActivity" />
-        <activity android:name=".view.msloadingview.TestViewActivity" />
-        <activity android:name=".java8.TestJava8Activity" />
-        <activity android:name=".aidl.AIDL1Activity" />
-        <activity android:name=".aidl.AIDL2Activity" />
-        <activity android:name=".beacon.BeaconTestActivity" />
-        <activity android:name=".mymapview.MainMyMapViewActivity" />
-        <activity android:name=".view.myview.MyViewActivity" />
-        <activity android:name=".RxJava.RxJavaActivity" />
-        <activity android:name=".display.DisplayDemoActivity"></activity>
+        <activity android:name="com.yaoh.AndroidDemo.permission.PermissonActivity" />
+        <activity android:name="com.yaoh.AndroidDemo.bitmap.BitmapActivity" />
+        <activity android:name="com.yaoh.AndroidDemo.xrecyclerview.XRecyclerViewActivity" />
+        <activity android:name="com.yaoh.AndroidDemo.view.seekbar.SeekBarActivity" />
+        <activity android:name="com.yaoh.AndroidDemo.view.msloadingview.TestViewActivity" />
+        <activity android:name="com.yaoh.AndroidDemo.java8.TestJava8Activity" />
+        <activity android:name="com.yaoh.AndroidDemo.aidl.AIDL1Activity" />
+        <activity android:name="com.yaoh.AndroidDemo.aidl.AIDL2Activity" />
+        <activity android:name="com.yaoh.AndroidDemo.beacon.BeaconTestActivity" />
+        <activity android:name="com.yaoh.AndroidDemo.mymapview.MainMyMapViewActivity" />
+        <activity android:name="com.yaoh.AndroidDemo.view.myview.MyViewActivity" />
+        <activity android:name="com.yaoh.AndroidDemo.RxJava.RxJavaActivity" />
+        <activity android:name="com.yaoh.AndroidDemo.display.DisplayDemoActivity"></activity>
     </application>
 
 </manifest>

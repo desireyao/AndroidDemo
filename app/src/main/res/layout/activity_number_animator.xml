@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.demo.view.number_anim.NumberAnimatorActivity">
+    tools:context="com.yaoh.AndroidDemo.view.number_anim.NumberAnimatorActivity">
 
     <Button
         android:id="@+id/button"

@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.demo.view.recy.RecyPullRefreshActivity"
+    tools:context="com.yaoh.AndroidDemo.view.recy.RecyPullRefreshActivity"
     android:background="@color/gray_light"
     >
 

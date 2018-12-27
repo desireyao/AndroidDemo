@@ -5,9 +5,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.demo.view.scrlloview.ScrollViewActivity">
+    tools:context="com.yaoh.AndroidDemo.view.scrlloview.ScrollViewActivity">
 
-    <com.demo.view.scrlloview.FlexScrollview
+    <com.yaoh.AndroidDemo.view.scrlloview.FlexScrollview
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fadingEdge="none">
@@ -31,7 +31,7 @@
         </LinearLayout>
 
 
-    </com.demo.view.scrlloview.FlexScrollview>
+    </com.yaoh.AndroidDemo.view.scrlloview.FlexScrollview>
 
 
 </LinearLayout>

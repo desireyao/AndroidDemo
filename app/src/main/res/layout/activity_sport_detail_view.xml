@@ -3,9 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.demo.view.sport_detail.SportDetailViewActivity">
+    tools:context="com.yaoh.AndroidDemo.view.sport_detail.SportDetailViewActivity">
 
-    <com.demo.view.sport_detail.SportDetailView
+    <com.yaoh.AndroidDemo.view.sport_detail.SportDetailView
         android:id="@+id/sportview"
         android:layout_width="match_parent"
         android:layout_height="200dp"

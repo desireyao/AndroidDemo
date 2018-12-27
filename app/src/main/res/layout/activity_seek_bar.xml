@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.demo.view.seekbar.SeekBarActivity">
+    tools:context="com.yaoh.AndroidDemo.view.seekbar.SeekBarActivity">
 
     <SeekBar
         android:layout_width="match_parent"

@@ -70,7 +70,7 @@
         android:background="@color/colorPrimary"
         android:paddingTop="20dp"
         app:layout_anchor="@id/frameLayout"
-        app:layout_behavior="com.demo.coord_demo.custom2.Custom2Behavior"
+        app:layout_behavior="com.yaoh.demo.coord_demo.custom2.Custom2Behavior"
         app:layout_collapseMode="pin"
         app:popupTheme="@style/AppTheme.PopupOverlay">
 

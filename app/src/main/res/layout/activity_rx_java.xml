@@ -5,6 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.demo.RxJava.RxJavaActivity">
+    tools:context="com.yaoh.AndroidDemo.RxJava.RxJavaActivity">
+
+    <Button
+        android:id="@+id/btn_start_timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始定时任务" />
+
+    <Button
+        android:id="@+id/btn_stop_timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="停止定时任务" />
+
+    <Button
+        android:id="@+id/btn_flowable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="开始轮询" />
+
 
 </LinearLayout>

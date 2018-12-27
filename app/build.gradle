@@ -5,7 +5,7 @@ android {
     buildToolsVersion "26.0.0"
 
     defaultConfig {
-        applicationId "com.demo"
+        applicationId "com.yaoh.AndroidDemo"
         minSdkVersion 19
         targetSdkVersion 26
         versionCode 1
@@ -20,7 +20,7 @@ android {
 
     productFlavors {
         Android_DEMO {
-            applicationId "com.demo"
+            applicationId "com.yaoh.AndroidDemo"
             versionCode 1
             versionName "1.0.170829.0"
         }

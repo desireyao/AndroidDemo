@@ -8,7 +8,7 @@
     android:orientation="vertical">
 
 
-    <com.demo.view.arc_demo.SportProgressView
+    <com.yaoh.AndroidDemo.view.arc_demo.SportProgressView
         android:id="@+id/sportview"
         android:layout_width="wrap_content"
         android:layout_height="180dp"
